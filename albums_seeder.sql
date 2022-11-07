@@ -10,5 +10,7 @@ UPDATE albums
 SET release_date - 100
 WHERE release_date < 1980;
 
-U
+UPDATE albums
+SET artist_name = 'Peter Jackson'
+WHERE artist_name = 'Michael Jackson';
 

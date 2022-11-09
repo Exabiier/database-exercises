@@ -11,8 +11,8 @@ USE employees;
 # LIMIT 5;
 
 # what does it really look like
-SELECT  emp_no, salary
-FROM salaries
-ORDER BY salary DESC
-LIMIT 5 OFFSET 50;
+# SELECT  emp_no, salary
+# FROM salaries
+# ORDER BY salary DESC
+# LIMIT 5 OFFSET 45;
 

@@ -39,10 +39,10 @@ WHERE year(hire_date) BETWEEN 1990 AND 1999
   AND day(birth_date) = 25
 ORDER BY hire_date DESC;
 
--- SELECT first_name, last_name
--- FROM employees
--- WHERE last_name LIKE 'E%'
---   AND last_name like '%e';
+# SELECT first_name, last_name
+# FROM employees
+# WHERE last_name LIKE 'E%'
+#   AND last_name like '%e';
 --
 -- SELECT first_name, last_name
 -- FROM employees
